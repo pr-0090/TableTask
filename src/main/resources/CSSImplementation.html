@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Implementation</title>
+    <style>
+        .container {
+            width: 20%;
+            margin: auto;
+            border: 10px solid #535bf2;
+            color: brown;
+            padding: 60px;
+        }
+
+        .main, .left, .para1 {
+            background-color: yellow;
+        }
+
+        .Right .para1 {
+            background-color: red;
+        }
+
+        .Right .para1 + .para2 {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+<div class="main"></div>
+<div class="left"></div>
+<div class="Right">
+    <div class="para1"></div>
+    <div class="para2">
+        <div class="para-left"></div>
+        <div class="para-right"></div>
+        <div class="para-last"></div>
+    </div>
+</div>
+</body>
+</html>
